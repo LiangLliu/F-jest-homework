@@ -9,7 +9,9 @@ describe("expect.equal", () => {
   });
   test("TODO 3", () => {
     // TODO 3: to replace "matcher"
-    expect(4).toBe(1);
+    // expect(4).toBe(1);
+    // TODO feedback: 这里应该使用.not
+    expect(4).not.toBe(1);
   });
   test("TODO 4", () => {
     // TODO 4: to replace "matcher"
